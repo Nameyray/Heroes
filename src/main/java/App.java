@@ -14,7 +14,7 @@ public class App {
             Map<String, Object> model = new HashMap<>();
 
 
-            return new ModelAndView(model, "index.hbs");
+            return new ModelAndView(model, "layout.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("heroes", (request, response) ->{
@@ -25,19 +25,19 @@ public class App {
 
             return new ModelAndView(model, "heroes.hbs");
         }, new HandlebarsTemplateEngine());
-        get("squad", (request, response) -> {
+        get("/heroes/list", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             ArrayList<Heroes> Hero = Heroes.getAll();
 
             model.put("heroes", Hero);
-            return new ModelAndView(model, "squad.hbs");
+            return new ModelAndView(model, "allheroes.hbs");
         }, new HandlebarsTemplateEngine());
-        post("/squad", (request, response) -> {
+        post("/allheroes/new", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
             ArrayList<Heroes> Hero = Heroes.getAll();
 
             model.put("heroes", Hero);
-            return new ModelAndView(model, "squad.hbs");
+            return new ModelAndView(model, "allheroes.hbs");
         }, new HandlebarsTemplateEngine());
 
         get("/heroes/:id/update", (request, response) -> {
@@ -68,10 +68,26 @@ public class App {
             return new ModelAndView(model, "squad.hbs");
         }, new HandlebarsTemplateEngine());
 
+        get("/squads/list", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            ArrayList<Squads> squads = Squads.getAll();
 
+            model.put("squads", squads);
+            return new ModelAndView(model, "allsquads.hbs");
+        }, new HandlebarsTemplateEngine());
+
+        get("/squads/:id", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            int idOfListToFind = Integer.parseInt(request.params("id"));
+            Squads foundSquad = Squads.findById(idOfListToFind);
+            Heroes foundHero = Heroes.findById(idOfListToFind);
+
+            model.put("squad",foundSquad);
+            model.put("hero", foundHero);
+
+            return new ModelAndView(model, "squad-detail.hbs");
+        }, new HandlebarsTemplateEngine());
     }
-
-
 }
 
 

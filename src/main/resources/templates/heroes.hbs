@@ -1,11 +1,11 @@
 {{#partial "title" }}
-    Welcome The Heroes
+    Welcome to Heroes App
 {{/partial}}
 
 {{#partial "content"}}
     <h1>Add a new Hero Here:</h1>
 
-    <form action="/squad" method="post" >
+    <form action="/heroes/new" method="post" >
         <div class="form-group">
             <label for="name">Name of Hero</label>
             <input id="name" name="name" type="text" class="form-control" style="margin-bottom: 40px;" placeholder="Enter Name Here:">
@@ -27,7 +27,7 @@
         </div>
 
         <button type="submit" class="btn btn-primary">Add Hero</button>
-        <p type="submit"> <a class="btn btn-outline-primary" href="/allheroes"> Create a new Squad.</a> </p>
+
     </form>
 
 
