@@ -50,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/public/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HeroesTest">
+  <component name="RunManager" selected="Gradle.HeroesTest (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="untitled2.main" />
@@ -58,7 +58,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HeroesTest (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -83,7 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HeroesTest" />
+        <item itemvalue="Gradle.HeroesTest (1)" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
