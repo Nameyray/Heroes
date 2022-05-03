@@ -36,5 +36,15 @@ public class SquadsTest {
         nurses.setHeroes(grace);
         music.setHeroes(shal);
     }
+    @Test
+    public void checksIfSquadsCanAddHeroes_true() {
+        Heroes shal = new Heroes("Shal", 16, "Music", "cleaning", "DJ");
+        Heroes grace = new Heroes("Grace", 24, "Nursing", "Never broke", "Nurses");
+        Squads nurses = new Squads("Nurses", "Nursing");
+
+        nurses.setHeroes(shal);
+        nurses.setHeroes(grace);
+        assertEquals(true, nurses.getHeroes().contains(shal));
+    }
 
 }

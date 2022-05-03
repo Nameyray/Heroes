@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="defined more properties in the squads java class">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SquadsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Squads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Squads.java" afterDir="false" />
+    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="passed two tests in the squads test">
+      <change beforePath="$PROJECT_DIR$/src/test/java/SquadsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SquadsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651603759008</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="passed two tests in the squads test">
+      <created>1651605438663</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651605438663</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -326,6 +331,8 @@
     <MESSAGE value="styled the squad and hero forms" />
     <MESSAGE value="defined more propreties in the squads java class" />
     <MESSAGE value="defined more properties in the squads java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="defined more properties in the squads java class" />
+    <MESSAGE value="added two tests in the squads test" />
+    <MESSAGE value="passed two tests in the squads test" />
+    <option name="LAST_COMMIT_MESSAGE" value="passed two tests in the squads test" />
   </component>
 </project>

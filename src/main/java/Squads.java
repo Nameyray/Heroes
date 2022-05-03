@@ -45,6 +45,9 @@ public class Squads{
     public int getId() {
         return id;
     }
+    public List<Heroes> getHeroes() {
+        return mHeroes;
+    }
     public void setHeroes(Heroes heroes) {
         mHeroes.add(heroes);
     }
