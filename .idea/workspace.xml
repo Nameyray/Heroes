@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="added a heroes form">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/public/images/img.png" afterDir="false" />
+    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="created a method to get the root path">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Heroes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/images/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squad.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squad.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651517965391</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created a method to get the root path">
+      <created>1651556173736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651556173736</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +128,7 @@
     <MESSAGE value="added design to the ui" />
     <MESSAGE value="added images in the images folder" />
     <MESSAGE value="added a heroes form" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a heroes form" />
+    <MESSAGE value="created a method to get the root path" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a method to get the root path" />
   </component>
 </project>

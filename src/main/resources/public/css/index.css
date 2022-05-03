@@ -80,9 +80,12 @@ margin-bottom:60px;
 .card-body{
 
 }
-.col-sm-6{
-width:40%;
+.row {
+display:flex;
+margin-right:10%;
 margin-left:10%;
+margin-top:2%;
+
 }
 
 p{
