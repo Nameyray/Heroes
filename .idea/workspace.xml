@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="added a heroes property to identify a hero with an id">
+    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="created a heroes test file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HeroesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HeroesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/public/images" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.HeroesTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="untitled2.main" />
@@ -58,8 +58,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HeroesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HeroesTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.HeroesTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -150,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651575234339</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="created a heroes test file">
+      <created>1651576890745</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1651576890745</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +209,7 @@
     <MESSAGE value="added a hero forem.hbs file and a heroes boolean property" />
     <MESSAGE value="added a hero form.hbs file and a heroes boolean property" />
     <MESSAGE value="added a heroes property to identify a hero with an id" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a heroes property to identify a hero with an id" />
+    <MESSAGE value="created a heroes test file" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a heroes test file" />
   </component>
 </project>
