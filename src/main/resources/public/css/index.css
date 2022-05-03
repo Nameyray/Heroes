@@ -5,6 +5,10 @@ body{
   background-size: cover;
   height: 100%
 }
+html{
+background-color: red;
+height: 80%;
+}
 
 .custom-nav{
   font-size: 24px;
@@ -110,4 +114,21 @@ object-fit: center;
 
 .t-2{
 font-size: 12px
+}
+form{
+  border-radius: 5px;
+  background-color: #DB7093;
+  padding: 20px;
+  width: 70%;
+  background-image: url(/images/background.png);
+}
+.form-group{
+ width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid red;
+  border-radius: 4px;
+  box-sizing: border-box;
+
 }

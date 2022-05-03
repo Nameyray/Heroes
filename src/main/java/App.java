@@ -21,6 +21,13 @@ public class App {
 
             return new ModelAndView(model, "heroes.hbs");
         }, new HandlebarsTemplateEngine());
+        get("squads", (request, response) ->{
+            Map<String, Object> model = new HashMap<>();
+
+            return new ModelAndView(model, "squad.hbs");
+        }, new HandlebarsTemplateEngine());
+
+
     }
 
 
