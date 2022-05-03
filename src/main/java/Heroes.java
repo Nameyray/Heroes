@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Heroes {
     private String mName;
     private int mAge;
@@ -7,6 +9,9 @@ public class Heroes {
     private String mSquadMembership;
     private boolean isOccupied;
 
+    public static ArrayList<Heroes> mInstances = new ArrayList<Heroes>();
+
+
     public Heroes(String mName, int mAge, int id, String mSpecialPower, String mWeakness, String mSquadMembership) {
         this.mName = mName;
         this.mAge = mAge;
@@ -14,6 +19,12 @@ public class Heroes {
         this.mSpecialPower = mSpecialPower;
         this.mWeakness = mWeakness;
         this.mSquadMembership = mSquadMembership;
+
+        mInstances.add(this);
+        this.id = mInstances.size();
+    }
+
+    public Heroes(String name, String age, String id, String strength, String weakness, String membership) {
     }
 
     public String getmName() {
