@@ -45,6 +45,9 @@ public class Squads{
     public int getId() {
         return id;
     }
+    public void setHeroes(Heroes heroes) {
+        mHeroes.add(heroes);
+    }
 
     public static Squads findById(int id) {
         return mInstances.get(id - 1);
