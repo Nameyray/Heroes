@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="created a method to get the root path">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Heroes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/css/index.css" afterDir="false" />
+    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="created a heroes data class with a constructor,getters and setters">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Squads.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651556173736</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="created a heroes data class with a constructor,getters and setters">
+      <created>1651559321235</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651559321235</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +134,7 @@
     <MESSAGE value="added images in the images folder" />
     <MESSAGE value="added a heroes form" />
     <MESSAGE value="created a method to get the root path" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a method to get the root path" />
+    <MESSAGE value="created a heroes data class with a constructor,getters and setters" />
+    <option name="LAST_COMMIT_MESSAGE" value="created a heroes data class with a constructor,getters and setters" />
   </component>
 </project>
