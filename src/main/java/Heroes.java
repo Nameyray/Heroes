@@ -24,7 +24,7 @@ public class Heroes {
         this.id = mInstances.size();
     }
 
-    public Heroes(String name, String age, String id, String strength, String weakness, String membership) {
+    public Heroes(String name, String age, String id, String strength, String weakness) {
     }
 
     public String getmName() {
@@ -82,7 +82,12 @@ public class Heroes {
         return this.isAdded;
     }
     public static Heroes findById(int id){
+
         return mInstances.get(id - 1);
+    }
+
+    public void deleteHero(){
+        mInstances.remove(id - 1);
     }
 
 }

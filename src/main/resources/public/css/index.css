@@ -5,11 +5,6 @@ body{
   background-size: cover;
   height: 100%
 }
-html{
-background-color: red;
-height: 80%;
-}
-
 .custom-nav{
   font-size: 24px;
   display: flex;
@@ -64,13 +59,7 @@ a:hover{
 background-color: #000000;
 }
 
-.jumbotron{
- height: 100%;
- text-align: center;
-margin: 50px 50px 50px 50px !important;
-box-shadow: 10px 10px 5px #888888;
-background: #fff;
-}
+
 h1{
 font-family: tahoma;
 color:#2980b9;
@@ -116,18 +105,18 @@ object-fit: center;
 font-size: 12px
 }
 form{
-  border-radius: 5px;
+  border-radius: 5px ;
   background-color: #DB7093;
   padding: 20px;
   width: 70%;
-  background-image: url(/images/background.png);
+
 }
 .form-group{
  width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid red;
+  border: 1px ;
   border-radius: 4px;
   box-sizing: border-box;
 

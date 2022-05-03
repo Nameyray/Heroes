@@ -1,18 +1,31 @@
-<h1>Add a new Squad:</h1>
+{{#partial "title" }}
+    Welcome The Heroes
+{{/partial}}
 
-<form action="/squads/new"  method="post">
-    <div class="form-group">
-        <label for="squad">Add name of Squad</label>
-        <input id="squad" name="squad" type="text" class="form-control" style="margin-bottom: 40px;" placeholder="Enter Name of Squad:">
-    </div>
+{{#partial "content"}}
+    <h1>Add a new Squad:</h1>
 
-    <div class="form-group">
-        <label for="cause">Cause to create squad</label>
-        <input id="cause" name="cause" type="text" class="form-control" style="margin-bottom: 40px;" placeholder="Enter Cause of squad:">
-    </div>
+    <form action="/squads/new"  method="post">
+        <div class="form-group">
+            <label for="squad">Add name of Squad</label>
+            <input id="squad" name="squad" type="text" class="form-control" style="margin-bottom: 40px;" placeholder="Enter Name of Squad:">
+        </div>
 
-    <button type="submit" class="btn btn-primary">Add Squad</button>
-</form>
+        <div class="form-group">
+            <label for="cause">Cause to create squad</label>
+            <input id="cause" name="cause" type="text" class="form-control" style="margin-bottom: 40px;" placeholder="Enter Cause of squad:">
+        </div>
+
+        <button type="submit" class="btn btn-primary">Add Squad</button>
+    </form>
+
+
+{{/partial}}
+
+{{> layout.hbs}}
+
+
+
 
 
 

@@ -4,8 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="created a heroes test file">
+    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="Passed a test to confirm all hero objects more than one are created">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/allsquads.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/squaddetail.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/success.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Heroes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Heroes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/public/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/allheroes.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/allheroes.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/heroes.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/heroes.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/squad.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/squad.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HeroesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HeroesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +28,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,7 +71,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/public/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HeroesTest (1)">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="App" />
       <module name="untitled2.main" />
@@ -81,10 +102,82 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="HeroesTest.delete_deleteASpecificHero (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HeroesTest.delete_deleteASpecificHero&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HeroesTest.getId_heroInstantiatesWithAnID_1 (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HeroesTest.getId_heroInstantiatesWithAnID_1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HeroesTest.getId_heroInstantiatesWithAnID_2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HeroesTest.getId_heroInstantiatesWithAnID_2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HeroesTest (1)" />
         <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.HeroesTest.delete_deleteASpecificHero (1)" />
+        <item itemvalue="Gradle.HeroesTest.getId_heroInstantiatesWithAnID_1 (1)" />
+        <item itemvalue="Gradle.HeroesTest.getId_heroInstantiatesWithAnID_2" />
+        <item itemvalue="Gradle.HeroesTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +274,21 @@
       <option name="project" value="LOCAL" />
       <updated>1651576890745</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Passed a test to confirm an object is well created">
+      <created>1651577326240</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1651577326240</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Passed a test to confirm all hero objects more than one are created">
+      <created>1651577647199</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1651577647199</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +317,8 @@
     <MESSAGE value="added a hero form.hbs file and a heroes boolean property" />
     <MESSAGE value="added a heroes property to identify a hero with an id" />
     <MESSAGE value="created a heroes test file" />
-    <option name="LAST_COMMIT_MESSAGE" value="created a heroes test file" />
+    <MESSAGE value="Passed a test to confirm an object is well created" />
+    <MESSAGE value="Passed a test to confirm all hero objects more than one are created" />
+    <option name="LAST_COMMIT_MESSAGE" value="Passed a test to confirm all hero objects more than one are created" />
   </component>
 </project>
