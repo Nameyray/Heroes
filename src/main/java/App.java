@@ -15,8 +15,15 @@ public class App {
 
             return new ModelAndView(model, "layout.hbs");
         }, new HandlebarsTemplateEngine());
+
+        get("heroes", (request, response) ->{
+            Map<String, Object> model = new HashMap<>();
+
+            return new ModelAndView(model, "heroes.hbs");
+        }, new HandlebarsTemplateEngine());
     }
 
-    }
+
+}
 
 
