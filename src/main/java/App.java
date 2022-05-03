@@ -25,6 +25,23 @@ public class App {
 
             return new ModelAndView(model, "heroes.hbs");
         }, new HandlebarsTemplateEngine());
+
+        get("/heroes/list", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            ArrayList<Heroes> heroes = Heroes.getAll();
+
+            model.put("heroes", heroes);
+            return new ModelAndView(model, "allheroes.hbs");
+        }, new HandlebarsTemplateEngine());
+
+        get("/heroes/:id/update", (request, response) -> {
+            Map<String, Object> model = new HashMap<>();
+            int idOfHeroToEdit = Integer.parseInt(request.params("id"));
+            Heroes editHero = Heroes.findById(idOfHeroToEdit);
+            model.put("editHero", editHero);
+            return new ModelAndView(model, "hero-form.hbs");
+        }, new HandlebarsTemplateEngine());
+
         post("/", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             String name = request.queryParams("name");

@@ -7,18 +7,18 @@ public class Heroes {
     private String mSpecialPower;
     private String mWeakness;
     private String mSquadMembership;
-    private boolean isOccupied;
+    private boolean isAdded;
 
     public static ArrayList<Heroes> mInstances = new ArrayList<Heroes>();
 
 
-    public Heroes(String mName, int mAge, int id, String mSpecialPower, String mWeakness, String mSquadMembership) {
+    public Heroes(String mName, int mAge, String mSpecialPower, String mWeakness, String mSquadMembership) {
         this.mName = mName;
         this.mAge = mAge;
-        this.id = id;
         this.mSpecialPower = mSpecialPower;
         this.mWeakness = mWeakness;
         this.mSquadMembership = mSquadMembership;
+        this.isAdded= false;
 
         mInstances.add(this);
         this.id = mInstances.size();
@@ -74,4 +74,15 @@ public class Heroes {
     public void setmSquadMembership(String mSquadMembership) {
         this.mSquadMembership = mSquadMembership;
     }
+
+    public static ArrayList<Heroes> getAll() {
+        return mInstances;
+    }
+    public boolean getAdded(){
+        return this.isAdded;
+    }
+    public static Heroes findById(int id){
+        return mInstances.get(id - 1);
+    }
+
 }

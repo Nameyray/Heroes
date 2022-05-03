@@ -22,4 +22,5 @@ public class Squads{
     public void setmCause(String mCause) {
         this.mCause = mCause;
     }
+
 }
