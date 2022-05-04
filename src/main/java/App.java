@@ -82,11 +82,24 @@ public class App {
             Squads foundSquad = Squads.findById(idOfListToFind);
             Heroes foundHero = Heroes.findById(idOfListToFind);
 
-            model.put("squad",foundSquad);
-            model.put("hero", foundHero);
 
-            return new ModelAndView(model, "squad-detail.hbs");
+            model.put("Squads",foundSquad);
+            model.put("Heroes", foundHero);
+
+            return new ModelAndView(model, "squaddetail.hbs");
         }, new HandlebarsTemplateEngine());
+
+        post("/squads/new", (request, response) -> {
+            Map<String, Object> model = new HashMap<String, Object>();
+            String squad = request.queryParams("squad");
+            String cause = request.queryParams("cause");
+            Squads newSquad = new Squads(squad, cause);
+            model.put("squad",squad);
+            model.put("cause", cause);
+
+            return new ModelAndView(model, "success.hbs");
+        }, new HandlebarsTemplateEngine());
+
     }
 }
 

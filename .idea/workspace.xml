@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="passed a test in the squads test to check if squads can add heroes">
+    <list default="true" id="a4b2e4f1-da56-4790-8ea9-896d042e6f68" name="Changes" comment="passed a test in the Heroes test to ensure a hero chooses a squad">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Squads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Squads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/allsquads.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/allsquads.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HeroesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HeroesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SquadsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SquadsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,29 +62,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources/public/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.HeroesTest.squad_ensuresHeroChoosesASquad (1)">
-    <configuration name="HeroesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;HeroesTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="App" />
+      <module name="untitled2.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="HeroesTest.delete_deleteASpecificHero" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -109,30 +93,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HeroesTest.getId_heroInstantiatesWithAnID_1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;HeroesTest.getId_heroInstantiatesWithAnID_1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="HeroesTest.squad_ensuresHeroChoosesASquad (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HeroesTest.squad_ensuresHeroChoosesASquad" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,7 +116,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="HeroesTest.updateChangesHeroContent" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HeroesTest.squads_correctlyInstantiatesSquadsObject" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -168,7 +129,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;HeroesTest.updateChangesHeroContent&quot;" />
+            <option value="&quot;HeroesTest.squads_correctlyInstantiatesSquadsObject&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="SquadsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;SquadsTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.HeroesTest.squad_ensuresHeroChoosesASquad (1)" />
-        <item itemvalue="Gradle.HeroesTest.updateChangesHeroContent" />
-        <item itemvalue="Gradle.HeroesTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Gradle.SquadsTest" />
         <item itemvalue="Gradle.HeroesTest.delete_deleteASpecificHero" />
-        <item itemvalue="Gradle.HeroesTest.getId_heroInstantiatesWithAnID_1" />
+        <item itemvalue="Gradle.HeroesTest.squads_correctlyInstantiatesSquadsObject" />
+        <item itemvalue="Gradle.HeroesTest.squad_ensuresHeroChoosesASquad" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651605851754</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="passed a test in the Heroes test to ensure a hero chooses a squad">
+      <created>1651638875607</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1651638875607</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,6 +351,7 @@
     <MESSAGE value="added two tests in the squads test" />
     <MESSAGE value="passed two tests in the squads test" />
     <MESSAGE value="passed a test in the squads test to check if squads can add heroes" />
-    <option name="LAST_COMMIT_MESSAGE" value="passed a test in the squads test to check if squads can add heroes" />
+    <MESSAGE value="passed a test in the Heroes test to ensure a hero chooses a squad" />
+    <option name="LAST_COMMIT_MESSAGE" value="passed a test in the Heroes test to ensure a hero chooses a squad" />
   </component>
 </project>

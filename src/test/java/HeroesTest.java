@@ -83,5 +83,11 @@ public class HeroesTest {
         private Squads setUpNewSquads(){
             return new Squads("avengers", "Prepare food");
         }
+    @Test
+    public void squads_correctlyInstantiatesSquadsObject(){
+        Heroes rachel = setUpNewHeroes();
+        Squads avengers = setUpNewSquads();
+        assertEquals(true, avengers instanceof Squads);
+    }
 
     }
