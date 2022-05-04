@@ -1,17 +1,16 @@
-{{#partial "content"}}
-    {{#if Heroes}}
+<!--{{#partial "content"}}-->
+<!--    {{#if Heroes}}-->
         {{#each Heroes}}
-            <h4>Name: {{name}} <a href="/heroes/{{id}}/update">Edit this Hero</a></h4>
-            <p>Age: {{age}}</p>
-            <p>Special Powers: {{specialPower}}</p>
-            <p>Weakness: {{weakness}}</p>
-            <p>Special Power {{specialPower}}</p>
+            <h4>Name: <span>{{mName}} </span> <br>
+            <p>Age: <span> {{mAge}} </span> </p>
+            <p>Special Power: <span> {{mSpecialPower}} </span> </p>
+            <p>Weakness: <span> {{mWeakness}} </span></p>
 
         {{/each}}
-    {{else}}
-        No Heroes
-    {{/if}}
+<!--    {{else}}-->
+<!--        No Heroes-->
+<!--    {{/if}}-->
 
-{{/partial}}
+<!--{{/partial}}-->
 
 {{> layout.hbs}}

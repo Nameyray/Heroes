@@ -12,6 +12,7 @@ public class Heroes {
     public static ArrayList<Heroes> mInstances = new ArrayList<Heroes>();
 
 
+
     public Heroes(String mName, int mAge, String mSpecialPower, String mWeakness, String mSquadMembership) {
         this.mName = mName;
         this.mAge = mAge;
@@ -25,6 +26,12 @@ public class Heroes {
     }
 
     public Heroes(String name, String age, String id, String strength, String weakness) {
+    }
+    public void addHeroes(ArrayList<Heroes>list, Heroes heroes){
+        if (list !=null){
+            mInstances= list;
+        }
+        mInstances.add(heroes);
     }
 
     public String getmName() {

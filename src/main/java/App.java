@@ -12,6 +12,7 @@ public class App {
         staticFileLocation("/public");
         get("/", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
+            request.session().attribute("Heroes", new ArrayList<>());
 
 
             return new ModelAndView(model, "layout.hbs");
@@ -19,24 +20,18 @@ public class App {
 
         get("heroes", (request, response) ->{
             Map<String, Object> model = new HashMap<>();
-            ArrayList<Heroes> foundHero = Heroes.getAll();
+            ArrayList<Heroes> foundHero =  request.session().attribute("Heroes" );
             model.put("heroes",foundHero);
 
 
             return new ModelAndView(model, "heroes.hbs");
         }, new HandlebarsTemplateEngine());
+
         get("/heroes/list", (request, response) -> {
             Map<String, Object> model = new HashMap<String, Object>();
-            ArrayList<Heroes> Hero = Heroes.getAll();
+            ArrayList<Heroes> heroes = request.session().attribute("Heroes" );
 
-            model.put("heroes", Hero);
-            return new ModelAndView(model, "allheroes.hbs");
-        }, new HandlebarsTemplateEngine());
-        post("/allheroes/new", (request, response) -> {
-            Map<String, Object> model = new HashMap<String, Object>();
-            ArrayList<Heroes> Hero = Heroes.getAll();
-
-            model.put("heroes", Hero);
+            model.put("Heroes", heroes);
             return new ModelAndView(model, "allheroes.hbs");
         }, new HandlebarsTemplateEngine());
 
@@ -48,7 +43,7 @@ public class App {
             return new ModelAndView(model, "hero-form.hbs");
         }, new HandlebarsTemplateEngine());
 
-        post("/", (request, response) -> {
+        post("/heroes/new", (request, response) -> {
             Map<String, Object> model = new HashMap<>();
             String name = request.queryParams("name");
             String age = request.queryParams("age");
@@ -56,8 +51,9 @@ public class App {
             String strength = request.queryParams("special-power");
             String weakness = request.queryParams("weakness");
             String membership = request.queryParams("squad-membership");
-
+            ArrayList<Heroes> foundHero =  request.session().attribute("Heroes" );
             Heroes heroes = new Heroes(name, age, Id, strength, weakness);
+            foundHero.add(heroes);
             model.put("Heroes", heroes);
             return new ModelAndView(model, "heroes_success.hbs");
         }, new HandlebarsTemplateEngine());
