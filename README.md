@@ -1,3 +1,7 @@
+HEROES
+By: RACHEL
+
+
 DESCRIPTION
 The project allows one add their details as heroes and get a squad to work with depending on their strengths and weakness
 
