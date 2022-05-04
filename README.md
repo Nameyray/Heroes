@@ -2,14 +2,14 @@ HEROES
 By: RACHEL
 
 
-DESCRIPTION
+**DESCRIPTION**
 The project allows one add their details as heroes and get a squad to work with depending on their strengths and weakness
 
-REQUIREMENTS.
+**REQUIREMENTS.**
 Connection to the internet.
 A browser to be able to use the link to the app.
 
-TECHNOLOGIES USED
+**TECHNOLOGIES USED**
 1.Java version11
 2.Gradle
 3.Spark Framework
@@ -17,8 +17,8 @@ TECHNOLOGIES USED
 5.JUnit v4.12
 6.Maven Plugins
 7.Handlebars Templating Engine.
-
-INSTALLATION.
+**
+**INSTALLATION.****
 Clone or download the Repository
 cd into directory then run cd Heroes
 Rebuild the Project Using Intellij IDEA or ...
@@ -26,7 +26,7 @@ Open terminal command line then navigate to the root folder of the application.
 Run gradle run command.
 Navigate to http://localhost:4567/ in your browser.
 
-DEVELOPMENT.
+**DEVELOPMENT.**
 To fix a bug or Contribute, follow these steps:
 
 Fork the repository
@@ -36,11 +36,11 @@ Add changes to reflect the changes made
 Commit your changes (git commit -am 'Improve feature')
 Push to the branch (git push origin improve-feature)
 Create a Pull Request
-
-KNOWN BUGS.
+**
+**KNOWN BUGS.****
 Currently the project is not fully functional but for any contributions please reach me out namibaracheal@gmail.com 
 
-LICENSE
+**LICENSE**
 MIT Copyright (c) 2022 Rachel Namiba
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
