@@ -1,6 +1,9 @@
 import org.junit.jupiter.api.Test;
 
+import java.time.LocalDateTime;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 public class SquadsTest {
     @Test
@@ -45,6 +48,16 @@ public class SquadsTest {
         nurses.setHeroes(shal);
         nurses.setHeroes(grace);
         assertEquals(true, nurses.getHeroes().contains(shal));
+    }
+    @Test
+    public void getCreatedAt_instantiatesWithCurrentTime_today() throws Exception{
+        Squads nurses = new Squads("nurses", "nursing");
+        assertEquals(LocalDateTime.now().getDayOfWeek(), nurses.getCreatedAt().getDayOfWeek());
+    }
+    @Test
+    public void getPublished_isFalseAfterInstantiation_false() {
+        Squads nurses = new Squads("Nurses", "Nursing");
+        assertEquals(false, nurses.getPublished());
     }
 
 }

@@ -62,4 +62,18 @@ public class Squads{
     public boolean checkForMaximumMembers() {
         return mHeroes.size() <= this.mMaxSize;
     }
+
+    public boolean getPublished() {
+        return this.mPublished;
+    }
+    public boolean doesHeroesExist(Heroes heroes) {
+        int counter = 0;
+        for (Heroes mHeroes : mHeroes) {
+            if (mHeroes.getmName().equals(heroes.getmName())) {
+                counter++;
+            }
+        }
+
+        return counter != 1;
+    }
 }
